@@ -171,7 +171,7 @@ onMounted(async () => {
   cursor: pointer;
 }
 
-.jn-product-card:hover .jn-cover-img {
+/* .jn-product-card:hover .jn-cover-img {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
@@ -179,7 +179,7 @@ onMounted(async () => {
 .jn-product-card:hover .jn-product-title {
   color: #007bff;
   transition: color 0.3s ease-in-out;
-}
+} */
 
 .jn-product-card:hover .bi-arrow-up-right-circle {
   display: inline-block; /* 确保元素可以正常旋转 */
