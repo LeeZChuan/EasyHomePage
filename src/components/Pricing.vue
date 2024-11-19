@@ -90,9 +90,9 @@ const getFiles = async () => {
         }))
     );
     markdownFiles.push(...(await Promise.all(importPromises)));
-    // 按照 data 降序排列
+    // 按照 data 升排列
     markdownFiles.sort((a, b) => {
-        return a.attributes.date < b.attributes.date ? 1 : -1;
+        return a.attributes.sort > b.attributes.sort ? 1 : -1;
     });
 
     loaded.value = true;

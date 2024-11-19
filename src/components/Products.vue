@@ -25,6 +25,9 @@
                                     </a>
                                 </h5>
                                 <div class="card-title mt-3">
+                                    项目日期：{{ file.attributes.date }}
+                                </div>
+                                <div class="card-title mt-3">
                                     <span v-for="tags in file.attributes.tags" :key="index"
                                         class="badge bg-dark jn-tags me-2">
                                         {{ tags }}

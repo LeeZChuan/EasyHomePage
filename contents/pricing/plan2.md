@@ -1,5 +1,5 @@
 ---
-date: 02
+sort: 2
 Title: 喝咖啡吹牛
 Subtitle: 一起喝咖啡，聊聊互联网产品
 Includes:
@@ -9,7 +9,6 @@ Includes:
     - 可以将咖啡换成酒
 Excludes:
     - 不提供喝咖啡场所
-    - 无法禁烟
     - 不陪同上厕所
 Price: 9.9 $
 ---
