@@ -9,7 +9,7 @@ import MarkdownIt from 'markdown-it';
 dotenv.config();
 
 const frontEndPort = parseInt(process.env.FRONTEND_PORT || 18772, 10);
-
+const Timestamp=new Date().getTime();
 const markdownIt = new MarkdownIt({
   html: true,
   linkify: true,
@@ -46,9 +46,9 @@ export default defineConfig({
         },
         assetFileNames: (assetInfo) => {
           if (assetInfo.name.endsWith('.woff') || assetInfo.name.endsWith('.woff2')) {
-            return 'fonts/[name][extname]';
+            return `fonts/[name]${Timestamp}[extname]`;
           }
-          return 'assets/[name]-[hash][extname]';
+          return `assets/[name]-[hash]${Timestamp}[extname]`;
         },
       }
     },
