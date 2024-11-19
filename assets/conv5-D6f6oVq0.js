@@ -10,7 +10,6 @@ const n={date:"2024-01",avatar:"m3.png"},l=`<p>这个人吧，好奇心还挺强
 <li>爱折腾</li>
 <li>摄影爱好者</li>
 <li>GMAIL 爱好者</li>
-<li>传播研究者</li>
 <li>ChatGPT 人类助手</li>
 <li>追求产品细节</li>
 <li>科技崇拜者</li>
@@ -27,7 +26,6 @@ const n={date:"2024-01",avatar:"m3.png"},l=`<p>这个人吧，好奇心还挺强
 * 爱折腾
 * 摄影爱好者
 * GMAIL 爱好者
-* 传播研究者
 * ChatGPT 人类助手
 * 追求产品细节
 * 科技崇拜者`;export{n as attributes,l as html,i as markdown};
