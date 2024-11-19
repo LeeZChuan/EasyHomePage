@@ -1,8 +1,8 @@
 ---
 date: '2022'
 title: 'Ainvest移动端图表库'
-cover: './images/av-standard.png'
-url: 'https://chinavis.org/2019/challenge.html'
+cover: 'av-standard.png'
+url: 'https://s.thsi.cn/cd/iwc-datav-datav-front-web/components/chart-kit/demo/light.html'
 tags:
   - 可视化
 ---

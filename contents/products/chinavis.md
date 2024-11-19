@@ -1,7 +1,7 @@
 ---
 date: '2019'
 title: '实时监控场馆可视化系统'
-cover: './images/ChinaVis2019_Poster.png'
+cover: 'ChinaVis2019_Poster.png'
 url: 'https://chinavis.org/2019/challenge.html'
 tags:
   - 可视化
