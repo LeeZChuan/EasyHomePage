@@ -166,9 +166,14 @@ onMounted(async () => {
 .jn-product-card {
   position: relative;
 }
+.jn-card{
+  border: 2px solid transparent; /* 初始时无边框 */
+  transition: border-color 0.3s ease; /* 添加平滑过渡效果 */
+}
 
-.jn-product-card:hover {
+.jn-card:hover {
   cursor: pointer;
+  border-color: #5E3BEE; /* 鼠标悬停时改变边框颜色 */
 }
 
 /* .jn-product-card:hover .jn-cover-img {
@@ -181,12 +186,15 @@ onMounted(async () => {
   transition: color 0.3s ease-in-out;
 } */
 
-.jn-product-card:hover .bi-arrow-up-right-circle {
+
+
+.jn-product-card .bi-arrow-up-right-circle {
   display: inline-block; /* 确保元素可以正常旋转 */
   transition: transform 0.2s linear; /* 添加平滑过渡效果 */
 }
 
-.jn-product-card:hover .bi-arrow-up-right-circle {
+.jn-product-card .bi-arrow-up-right-circle:hover {
   transform: rotate(45deg); /* 旋转 45 度 */
+  color:#5E3BEE
 }
 </style>
