@@ -10,7 +10,7 @@
       </div>
       <div v-if="loaded" class="jn-right-panel col-md-7 col-12">
         <ul
-          class="nav nav-underline mb-3 text-nowrap overflow-x-scroll flex-nowrap"
+          class="nav nav-underline mb-3 text-nowrap flex-nowrap"
           id="pills-tab"
           role="tablist"
         >
