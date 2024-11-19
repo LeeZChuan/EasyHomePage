@@ -1,6 +1,6 @@
 ---
 date: '2019-05'
-title: 'ChinaVis2019-智能场馆安全运营'
+title: 'SCVis:智能场馆安全运营可视分析'
 url: 'https://chinavis.org/2019/challenge.html'
 tags:
   - Javascript
