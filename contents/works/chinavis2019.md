@@ -6,7 +6,6 @@ tags:
   - Javascript
   - Vue
   - D3.js
-  - Data Analysis
   - Echarts
   - Visualization
 ---
