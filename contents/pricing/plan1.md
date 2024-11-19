@@ -10,5 +10,5 @@ Includes:
 Excludes:
     - 不提供公路车
     - 住宿费用自理
-Price: 5 $
+Price: 9.9 $
 ---
