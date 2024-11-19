@@ -61,7 +61,7 @@ formattedHtml.value = formatHtml(html);
 }
 
 .jn-desktop-mt {
-    margin-top: 32pt;
+    margin-top: 0pt;
     min-height: 680pt;
 }
 

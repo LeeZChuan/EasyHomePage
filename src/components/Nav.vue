@@ -36,7 +36,7 @@ const age = ref(0);
 
 const calAge = () => {
     const now = new Date();
-    const birth = new Date('1987-11-06');
+    const birth = new Date('1996-12-17');
     const diff = now.getTime() - birth.getTime();
     const ageInMilliseconds = new Date(diff);
     const ageInYears = Math.abs(ageInMilliseconds.getUTCFullYear() - 1970);

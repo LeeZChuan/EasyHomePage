@@ -8,5 +8,5 @@ Works: '作品'
 Pricing: '买他'
 Footer: '联系'
 AgeTitle: '版本号即岁数'
-Name: 'JN'
+Name: 'LZC'
 ---
