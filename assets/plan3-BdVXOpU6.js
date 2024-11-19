@@ -1,1 +1,0 @@
-const t={sort:3,Title:"正经技术咨询",Subtitle:"提供短期或长期的技术咨询服务",Includes:["技术框架设计咨询","效率提升咨询","可以帮你提供个人的技术提升建议","可以帮你加油","可以给你第三个人的个人看法建议","包含前两种服务"],Price:"99 $"},e="",o="";export{t as attributes,e as html,o as markdown};
