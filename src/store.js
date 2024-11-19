@@ -1,18 +1,16 @@
 // store.js
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
-export const useMainStore = defineStore('main', {
+export const useMainStore = defineStore("main", {
+  state: () => ({
+    isMobile: false,
+  }),
 
-    state: () => ({
-        isMobile: false,
-    }),
+  getters: {},
 
-    getters: {
+  actions: {
+    setIsMobile(value) {
+      this.isMobile = value;
     },
-
-    actions: {
-        setIsMobile(value) {
-            this.isMobile = value;
-        }
-    }
+  },
 });

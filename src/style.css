@@ -1,5 +1,5 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
 
 :root {
   --neutral-900: #0f1221;
@@ -9,15 +9,15 @@
   --purple-dark: #4322ca;
   --neutral-400: #989dbb;
   --neutral-800: #1e2238;
-  --purple-lighter: rgba(94, 58, 238, .08);
+  --purple-lighter: rgba(94, 58, 238, 0.08);
   --neutral-300: #e0e2ef;
   --green: #3ae8b4;
-  --orange-lighter: rgba(255, 168, 66, .08);
+  --orange-lighter: rgba(255, 168, 66, 0.08);
   --neutral-600: #3c4263;
   --green-dark: #19c792;
   --orange-light: #ffca8c;
   --green-light: #85fbd7;
-  --green-lighter: rgba(58, 232, 179, .08);
+  --green-lighter: rgba(58, 232, 179, 0.08);
   --orange-dark: #db8117;
   --green-darker: #0a9b6f;
   --orange: #ffa842;
@@ -34,8 +34,12 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1600px;
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1600px;
   }
 }
 
@@ -110,7 +114,7 @@ body {
 }
 
 .jn-icon::after {
-  content: '';
+  content: "";
   position: absolute;
   left: -10px;
   bottom: 10px;
