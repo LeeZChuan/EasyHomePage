@@ -1,6 +1,6 @@
 ---
 date: 
-Title: 一起骑摩托车
+Title: 一起骑行徒步
 Subtitle: 约他一起骑车，一起去看看世界
 Includes:
     - 路线建议服务
@@ -8,8 +8,7 @@ Includes:
     - 吃饭时一起吹牛
     - 让你教他骑车
 Excludes:
-    - 不提供摩托车
-    - 不帮你加油
+    - 不提供公路车
     - 住宿费用自理
-Price: 1 $
+Price: 5 $
 ---
