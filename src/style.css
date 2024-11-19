@@ -33,7 +33,13 @@ body {
   /* min-width: 565px; */
 }
 
+* {
+  user-select: none;
+  /* 禁用所有元素的文本选择 */
+}
+
 @media (min-width: 1200px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -90,6 +96,7 @@ body {
   height: 100%;
   border: 1px solid #ffffff2e;
 }
+
 .jn-badge {
   width: fit-content;
   padding: 0.5rem 1rem;
@@ -97,16 +104,20 @@ body {
   left: 28pt;
   top: 18pt;
 }
+
 .jn-card-text {
   font-weight: 300;
 }
+
 .jn-left-panel {
   padding-left: 28pt;
 }
+
 .jn-right-panel {
   padding-left: 28pt;
   padding-right: 28pt;
 }
+
 .jn-icon {
   font-size: 3rem;
   color: var(--bs-dark);
