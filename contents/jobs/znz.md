@@ -1,9 +1,9 @@
 ---
-date: '2023-10-31'
+date: '2023-10'
 id: 'znz'
 title: '前端开发工程师'
 company: '指南针科技有限公司'
-range: '2023 - '
+range: '2023.10 - now'
 url: 'https://www.compass.cn/'
 ---
 
