@@ -88,4 +88,14 @@ onMounted(async () => {
 .jn-works-row {
     padding-left: 18pt;
 }
+
+.bi-arrow-up-right-circle {
+    display: inline-block; /* 确保元素可以正常旋转 */
+    transition: transform 0.2s linear; /* 添加平滑过渡效果 */
+}
+
+.bi-arrow-up-right-circle:hover {
+    transform: rotate(45deg); /* 在 hover 状态下旋转 45 度 */
+}
+
 </style>

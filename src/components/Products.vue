@@ -136,4 +136,31 @@ onMounted(async () => {
 .jn-product-card {
     position: relative;
 }
+
+.jn-product-card:hover{
+    cursor: pointer;
+}
+
+
+.jn-product-card:hover .jn-cover-img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.jn-product-card:hover .jn-product-title {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+.jn-product-card:hover .bi-arrow-up-right-circle {
+    display: inline-block; /* 确保元素可以正常旋转 */
+    transition: transform 0.2s linear; /* 添加平滑过渡效果 */
+}
+
+
+.jn-product-card:hover .bi-arrow-up-right-circle {
+    transform: rotate(45deg); /* 旋转 45 度 */
+}
+
+
 </style>
