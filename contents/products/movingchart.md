@@ -1,8 +1,8 @@
 ---
 date: '2023'
 title: '带有时间轴的动态图表'
-cover: 'movingchart01.png,movingchart02.png'
-url: 'https://s.thsi.cn/cd/iwc-datav-datav-front-web/components/chart-kit/demo/light.html'
+cover: 'movingchart01.png,movingchart02.png,movingchart03.png'
+url: 'https://basic.10jqka.com.cn/datav/dividendFinancingAnimation.html?code=300033'
 tags:
   - 可视化
 ---
