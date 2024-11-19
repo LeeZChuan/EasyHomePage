@@ -167,7 +167,7 @@ onMounted(async () => {
   position: relative;
 }
 .jn-card{
-  border: 2px solid transparent; /* 初始时无边框 */
+  border: 1px solid transparent; /* 初始时无边框 */
   transition: border-color 0.3s ease; /* 添加平滑过渡效果 */
 }
 
