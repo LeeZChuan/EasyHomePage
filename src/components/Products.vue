@@ -131,8 +131,8 @@ const getFiles = async () => {
   );
 
   markdownFiles.push(...(await Promise.all(importPromises)));
-  // 按照 data 降序排列
-  markdownFiles.sort((a, b) => b.attributes.date - a.attributes.date);
+  // 按照 date 降序排列
+  markdownFiles.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime());
 
   loaded.value = true;
 };
