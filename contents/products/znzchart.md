@@ -1,5 +1,5 @@
 ---
-date: '2024'
+date: '2024-06'
 title: '带有时间轴的动态图表'
 cover: 'zchart.png'
 url: ''

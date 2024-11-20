@@ -1,5 +1,5 @@
 ---
-date: '2022'
+date: '2022-09'
 title: 'Ainvest移动端图表库'
 cover: 'av-standard.png'
 url: 'https://s.thsi.cn/cd/iwc-datav-datav-front-web/components/chart-kit/demo/light.html'

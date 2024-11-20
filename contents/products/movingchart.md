@@ -1,5 +1,5 @@
 ---
-date: '2023'
+date: '2022-12'
 title: '带有时间轴的动态图表'
 cover: 'movingchart01.png,movingchart02.png,movingchart03.png'
 url: 'https://basic.10jqka.com.cn/datav/dividendFinancingAnimation.html?code=300033'
