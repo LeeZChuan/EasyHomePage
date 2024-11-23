@@ -9,4 +9,4 @@ tags:
   - Visualization
 ---
 
-本项目是本科期间参加国内ChinaVis2019的参赛作品。
+本科期间，参加ChinaVis2019，第一次使用自制平台工具进行可视化分析。
