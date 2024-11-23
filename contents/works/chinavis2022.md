@@ -1,5 +1,5 @@
 ---
-date: '2021-06'
+date: '2022-06'
 title: 'BDVis：数据安全可视分析'
 url: 'https://chinavis.org/2022/challenge.html'
 tags:
@@ -9,4 +9,4 @@ tags:
   - Echarts
 ---
 
-该项目是工作之余空余时间参加的，制作的不够全面。
+主要使用Neo4j图数据库进行分析，使用官方提供的工具进行可视化分析展示。

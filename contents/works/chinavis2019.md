@@ -1,5 +1,5 @@
 ---
-date: '2019-05'
+date: '2019-06'
 title: 'SCVis:基于传感器数据的异常可视化分析'
 url: 'https://chinavis.org/2019/challenge.html'
 tags:

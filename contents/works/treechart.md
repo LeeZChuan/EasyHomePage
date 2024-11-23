@@ -8,4 +8,4 @@ tags:
   - Visualization
 ---
 
-本项目是基于ZRender封装的树图业务组件，包含展开收起等业务逻辑。
+本项目是基于ZRender封装的树图组件用于板块数据展示。
