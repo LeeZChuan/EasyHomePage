@@ -4,7 +4,7 @@ title: '基于Taro的多平台开发'
 url: ''
 tags:
   - TypeScript
-  - Vue
+  - Vue3
   - Taro
 ---
 

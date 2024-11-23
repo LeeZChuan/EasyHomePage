@@ -6,6 +6,7 @@ tags:
   - TypeScript
   - ZRender
   - Visualization
+  - Rollup
 ---
 
 本项目是基于ZRender封装的树图组件用于板块数据展示。
