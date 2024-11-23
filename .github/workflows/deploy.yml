@@ -18,13 +18,20 @@ jobs:
       with:
         node-version: '16' # 确保使用的 Node.js 版本
 
+    - name: Check commit message
+      id: check_commit
+      run: echo "contains_build=$(echo '${{ github.event.head_commit.message }}' | grep -qi 'build' && echo true || echo false)" >> $GITHUB_ENV
+
     - name: Install dependencies
+      if: env.contains_build == 'true'
       run: npm install
 
     - name: Build project
+      if: env.contains_build == 'true'
       run: npm run build
 
-    - name: Deploy to GitHub Pages # 确保没有多余的缩进
+    - name: Deploy to GitHub Pages
+      if: env.contains_build == 'true'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
