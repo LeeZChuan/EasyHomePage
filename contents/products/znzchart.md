@@ -1,6 +1,6 @@
 ---
 date: '2024-06'
-title: '带有时间轴的动态图表'
+title: '支持拖拽的矩形树图'
 cover: 'zchart.png'
 url: ''
 tags:
