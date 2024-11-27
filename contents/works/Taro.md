@@ -1,6 +1,6 @@
 ---
 date: '2023-01'
-title: '基于Taro的多平台开发'
+title: '基于Taro开发的多端app'
 url: ''
 tags:
   - TypeScript
