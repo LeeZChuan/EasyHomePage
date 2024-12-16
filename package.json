@@ -1,6 +1,11 @@
 {
   "name": "online-resume",
-  "private": true,
+  "private": false,
+  "description": "A personal website built with Vue 3 and Vite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeZChuan/EasyHomePage.git"
+  },
   "version": "0.0.1",
   "type": "module",
   "scripts": {
