@@ -1,7 +1,7 @@
 ---
 date: '2024-03'
 title: '多业务场景封装的原生表格'
-cover: 'table.jpg'
+cover: 'znztable.jpg'
 url: ''
 tags:
   - 业务封装
