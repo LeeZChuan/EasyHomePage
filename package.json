@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/LeeZChuan/EasyHomePage.git"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
