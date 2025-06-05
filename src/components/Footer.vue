@@ -54,11 +54,29 @@ const year = new Date().getFullYear();
 .jn-footer-social-desktop {
   font-size: 1.7rem;
   color: var(--purple);
+  display: inline-block;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.jn-footer-social-desktop:hover {
+  transform: translateY(-8px) scale(1.2);
+  color: var(--purple);
+  text-decoration: none;
 }
 
 .jn-footer-social-mobile {
   font-size: 1rem;
   color: var(--purple);
+  display: inline-block;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.jn-footer-social-mobile:hover {
+  transform: translateY(-6px) scale(1.15);
+  color: var(--purple);
+  text-decoration: none;
 }
 
 .jn-footer-placeholder {
