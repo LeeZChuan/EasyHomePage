@@ -1,6 +1,6 @@
 ---
 name: '阿哲'
-subtitle: '一个喜欢运动和户外的程序猿'
+subtitle: '一个喜欢运动并且要做一个有 swag 的程序员'
 button: 'OK，知道了'
 
 ---

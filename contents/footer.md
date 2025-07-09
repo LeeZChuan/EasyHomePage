@@ -1,6 +1,6 @@
 ---
 Title: 阿哲
-Subtitle: 一个喜欢运动的程序猿。
+Subtitle: 一个喜欢运动并且要做一个有 swag 的程序员。
 ContactTitle: 怎么联系？
 ContactSubtitle: 有需要我的地方就与我联系吧，我会尽快回复的。
 Social: [
