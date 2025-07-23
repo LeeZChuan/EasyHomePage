@@ -3,20 +3,21 @@
     <span class="badge bg-success jn-badge">{{ attributes.Badge }}</span>
     <div class="row mt-5 mx-0 jn-works-row" v-if="loaded">
       <div
-        v-for="n in Math.ceil(markdownFiles.length / 3)"
+        v-for="n in rows"
         :key="n"
         class="row"
       >
         <div
-          v-for="(file, index) in markdownFiles.slice((n - 1) * 3, n * 3)"
+          v-for="(file, index) in markdownFiles.slice((n - 1) * itemsPerRow, n * itemsPerRow)"
           :key="file.id"
-          class="col-md-4 col-12 mb-5"
+          class="col-lg-4 col-md-6 col-12 mb-5"
         >
           <div class="card jn-works-card h-100">
             <div class="card-body">
               <h5 class="card-title">
                 {{ file.attributes.title }}
                 <a
+                  v-if="file.attributes.url"
                   class="text-decoration-none link-success"
                   :href="file.attributes.url"
                   target="_blank"
@@ -24,6 +25,13 @@
                 >
                   <i class="bi bi-arrow-up-right-circle"></i>
                 </a>
+                <span
+                  v-else
+                  class="text-decoration-none text-muted"
+                  style="cursor: not-allowed;"
+                >
+                  <!-- <i class="bi bi-arrow-up-right-circle"></i> -->
+                </span>
               </h5>
               <div class="card-title mt-3">
                 项目日期：{{ file.attributes.date }}
@@ -47,12 +55,29 @@
 </template>
 
 <script setup>
-import { ref, onMounted, reactive } from "vue";
+import { ref, onMounted, onUnmounted, reactive, computed } from "vue";
 
 // 导入主介绍内容
 import { attributes, html } from "/contents/works/index.md";
 
 const loaded = ref(false);
+const screenWidth = ref(window.innerWidth);
+
+// 响应式布局计算
+const itemsPerRow = computed(() => {
+  if (screenWidth.value >= 990) return 3; // 大屏幕：3栏
+  if (screenWidth.value >= 770) return 2; // 中等屏幕：2栏
+  return 1; // 小屏幕：1栏
+});
+
+const rows = computed(() => {
+  return Math.ceil(markdownFiles.length / itemsPerRow.value);
+});
+
+// 监听窗口大小变化
+const handleResize = () => {
+  screenWidth.value = window.innerWidth;
+};
 
 const formattedHtml = ref("");
 const formatHtml = (content) => {
@@ -86,6 +111,12 @@ const getFiles = async () => {
 
 onMounted(async () => {
   await getFiles();
+  window.addEventListener('resize', handleResize);
+});
+
+// 清理事件监听器
+onUnmounted(() => {
+  window.removeEventListener('resize', handleResize);
 });
 </script>
 
@@ -108,7 +139,14 @@ onMounted(async () => {
   transition: transform 0.2s linear; /* 添加平滑过渡效果 */
 }
 
-.bi-arrow-up-right-circle:hover {
+/* 只有在链接存在时才显示hover动效 */
+a:hover .bi-arrow-up-right-circle {
   transform: rotate(45deg); /* 在 hover 状态下旋转 45 度 */
+}
+
+/* 禁用状态的图标样式 */
+.text-muted .bi-arrow-up-right-circle {
+  opacity: 0.5;
+  transition: none; /* 禁用过渡效果 */
 }
 </style>
