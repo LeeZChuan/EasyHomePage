@@ -1,7 +1,7 @@
 ---
 date: '2024-08'
 title: '矩形树图'
-cover: 'zchart.png,zchart2.png'
+cover: 'zchart.png,zchart1.png,zchart2.png'
 url: ''
 tags:
   - 可视化
