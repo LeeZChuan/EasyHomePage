@@ -8,4 +8,4 @@ tags:
   - Rollup
 ---
 
-基于[klinechart](https://klinecharts.com/)封装的符合公司业务的行情组件,运用在app功能演示等.
+基于[klinechart](https://klinecharts.com/)封装的符合公司业务的行情组件,已经应用在app的引导学习的功能演示等页面。
