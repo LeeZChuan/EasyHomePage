@@ -24,6 +24,7 @@
                 <h5 class="card-title">
                   {{ file.attributes.title }}
                   <a
+                    v-if="file.attributes.url"
                     class="text-decoration-none link-dark"
                     :href="file.attributes.url"
                     target="_blank"
