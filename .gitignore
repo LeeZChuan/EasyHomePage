@@ -8,6 +8,7 @@ pnpm-debug.log*
 # Vite
 dist/          # 构建输出目录
 *.local        # 本地环境文件
+/docs
 
 # Logs
 logs/

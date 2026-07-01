@@ -26,6 +26,7 @@
     "express": "4.19.2",
     "gray-matter": "4.0.3",
     "markdown-it": "14.1.0",
+    "p5": "^1.11.13",
     "pinia": "2.1.7",
     "prettier": "^3.3.3",
     "scrollreveal": "4.0.9",

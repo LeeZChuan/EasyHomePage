@@ -17,11 +17,7 @@
               class="col-4 col-md-3"
               :class="`jn-img-${index % 2 === 0 ? 'right' : 'left'}`"
             >
-              <img
-                :src="file.attributes.avatar"
-                alt="avatar"
-                class="img-fluid rounded-circle jn-avatar"
-              />
+              <P5Avatar :size="100" :seed="index * 137" />
             </div>
           </div>
         </div>
@@ -32,6 +28,7 @@
 
 <script setup>
 import { ref, onMounted, reactive } from "vue";
+import P5Avatar from "./P5Avatar.vue";
 
 // 导入主介绍内容
 import { attributes } from "/contents/conversations/index.md";
